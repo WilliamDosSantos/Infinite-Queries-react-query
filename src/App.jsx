@@ -27,6 +27,11 @@ const Button = styled.button`
   background-color: transparent;
   border: 1px solid;
   font-size: 22px;
+  border-radius: 8px;
+
+  &:hover {
+    background-color: #f3f3f3;
+  }
 `;
 
 const Input = styled.input`
